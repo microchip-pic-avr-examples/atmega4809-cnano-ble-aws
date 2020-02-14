@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
     - name: debian
-      image: artifacts.microchip.com/microchip/citd/debian:1.0.0-stable
+      image: artifacts.microchip.com:7999/microchip/citd/debian:1.0.0-stable
       imagePullPolicy: Always
       command: ['cat']
       tty: true
