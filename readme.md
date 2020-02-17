@@ -17,25 +17,26 @@ A tutorial that provides the steps needed to setup this functionality can be fou
 
 Here are the settings used for USART, TWI, TCA and the Weather Click.
 
-###System Settings
-![System Module](image/SystemConf.png)
+### System Settings
+
+![System Module](image/SystemConf.PNG)
 
 ### USART Settings
-![USART0 Module](image/USART0Conf.png)
-![USART3 Module](image/USART3Conf.png)
+![USART0 Module](image/USART0Conf.PNG)
+![USART3 Module](image/USART3Conf.PNG)
 
 ### TWI Settings
-![TWI0 Module](image/TWI0Conf.png)
+![TWI0 Module](image/TWI0Conf.PNG)
 
 ### TCA Settings
-![TCA0 Module](image/TCA0Conf.png)
+![TCA0 Module](image/TCA0Conf.PNG)
 
 ### Weather Click settings
-![Weather Click Settings](image/WeatherConf.png)
+![Weather Click Settings](image/WeatherConf.PNG)
 
 
 ### PIN Grid
-![PIN Grid](image/PinConfig.png)
+![PIN Grid](image/PinConfig.PNG)
 
 ### PIN Module
-![PIN Module](image/PinModule.png)
+![PIN Module](image/PinModule.PNG)
