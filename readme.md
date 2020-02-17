@@ -1,0 +1,41 @@
+<div id="readme" class="Box-body readme blob js-code-block-container">
+  <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><p><a href="https://www.microchip.com" rel="nofollow"><img src="https://camo.githubusercontent.com/5fb5505f69a28ff407841612dfe2b7004f210594/68747470733a2f2f636c6475702e636f6d2f553071684c7742696a462e706e67" alt="MCHP" data-canonical-src="https://cldup.com/U0qhLwBijF.png" style="max-width:100%;"></a></p>
+
+# Introduction
+This project describes how to connect a Click Weather sensor to the AWS cloud through a BLE module from an ATmega4809 microcontroller.
+
+# Description
+In this example we will use a Curiosity Nano ATmega4809 board on a Curiosity Nano Adapter board with the RN4870 Click and Weather Click boards. A Raspberry Pi 3 Model B+ board will be used as the gateway for pushing the data to the AWS cloud.
+
+![Hardware Setup](image/HWConf.svg)
+
+The Lambda function that needs to be deployed on the gateway is also found here.
+
+A tutorial that provides the steps needed to setup this functionality can be found here: https://www.hackster.io/ble-weather-aws/connect-ble-weather-sensor-to-the-cloud-e79d9d
+
+# MCC Settings
+
+Here are the settings used for USART, TWI, TCA and the Weather Click.
+
+###System Settings
+![System Module](image/SystemConf.png)
+
+### USART Settings
+![USART0 Module](image/USART0Conf.png)
+![USART3 Module](image/USART3Conf.png)
+
+### TWI Settings
+![TWI0 Module](image/TWI0Conf.png)
+
+### TCA Settings
+![TCA0 Module](image/TCA0Conf.png)
+
+### Weather Click settings
+![Weather Click Settings](image/WeatherConf.png)
+
+
+### PIN Grid
+![PIN Grid](image/PinConfig.png)
+
+### PIN Module
+![PIN Module](image/PinModule.png)
