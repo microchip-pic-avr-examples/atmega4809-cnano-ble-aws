@@ -1,6 +1,12 @@
-Weather_Click_AWS.X/build
-Weather_Click_AWS.X/debug
-Weather_Click_AWS.X/dist
+# Untracked files in MPLABX projects
+/**/build/*
+/**/nbproject/*
+!/**/nbproject/*.xml
+/**/[Dd]ebug/production/*
+/**/[Rr]elease/production/*
 
-
-
+# Uncomment these to include hex/elf files
+#!/**/[Dd]ebug/production/*.hex
+#!/**/[Dd]ebug/production/*.elf
+#!/**/[Rr]elease/production/*.hex
+#!/**/[Rr]elease/production/*.elf
