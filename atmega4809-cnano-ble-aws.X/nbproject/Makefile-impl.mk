@@ -31,7 +31,7 @@ DEFAULTCONF=free
 CONF=${DEFAULTCONF}
 
 # All Configurations
-ALLCONFS=free 
+ALLCONFS=free pro 
 
 
 # build
@@ -46,12 +46,14 @@ ALLCONFS=free
 # clobber
 .clobber-impl: .clobber-pre .depcheck-impl
 	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=free clean
+	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=pro clean
 
 
 
 # all
 .all-impl: .all-pre .depcheck-impl
 	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=free build
+	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=pro build
 
 
 

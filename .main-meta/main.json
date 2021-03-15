@@ -10,12 +10,12 @@
         "shortDescription": "This repository describes how to connect a Click Weather sensor to the AWS cloud through a BLE module from an ATmega4809 microcontroller.",
         "ide": {
             "name": "MPLAB X",
-            "semverRange": ">=5.30.0"
+            "semverRange": ">=5.45.0"
         },
         "compiler": [
 			{
-				"name": "XC8",
-				"semverRange": "^2.10.0"
+				"name": "AVR GCC",
+				"semverRange": "^5.40.0"
 			}
 		],
         "dfp": {
