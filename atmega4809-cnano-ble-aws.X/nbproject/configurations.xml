@@ -333,7 +333,7 @@
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="ATmega_DFP" vendor="Microchip" version="2.3.126"/>
+        <pack name="ATmega_DFP" vendor="Microchip" version="2.0.12"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>
@@ -417,7 +417,7 @@
         <property key="make-warnings-into-errors" value="false"/>
         <property key="no-interrupts" value="false"/>
         <property key="no-system-directories" value="false"/>
-        <property key="optimization-level" value="-O1"/>
+        <property key="optimization-level" value="-Os"/>
         <property key="pack-struct" value="true"/>
         <property key="preprocessor-macros" value=""/>
         <property key="preprocessor-macros-undefined" value=""/>
