@@ -3,28 +3,28 @@
     "category": "com.microchip.ide.project",
     "content": {
         "metaDataVersion": "1.1.0",
-        "name": "com.microchip.mcu8.mplabx.project.",
-        "version": " ",
-        "displayName": "  ",
-        "projectName": "",
-        "shortDescription": "",
+        "name": "com.microchip.mcu8.mplabx.project.atmega4809-cnano-ble-aws",
+        "version": "1.0.2",
+        "displayName": "Sending weather info to AWS with BLE on ATmega4809",
+        "projectName": "atmega4809-cnano-ble-aws",
+        "shortDescription": "This repository describes how to connect a Click Weather sensor to the AWS cloud through a BLE module from an ATmega4809 microcontroller.",
         "ide": {
-            "name": "",
-            "semverRange": ""
+            "name": "MPLAB X",
+            "semverRange": ">=5.30.0"
         },
         "compiler": [
 			{
-				"name": "",
-				"semverRange": ""
+				"name": "XC8",
+				"semverRange": "^2.10.0"
 			}
 		],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "ATmega_DFP",
+            "semverRange": "^2.0.12"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "MCC",
+            "semverRange": ">=3.95.0"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -32,26 +32,21 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "",
+                "name": "ATMEGA4809",
                 "versionRange": "*"
             }
         },
-        "author": "",
+        "author": "Microchip",
         "subcategories": [
-            "",
             [
-               "Peripherals", ""
-            ],
-            [
-               "Peripherals", ""
-            ]            			
+               "Peripherals", "USART"
+            ]
         ],
         "peripherals": [
-            "",""
+            "USART"
         ],
         "keywords": [
-            "",
-            ""			
+            "AWS", "BLE", "Weather Click"
         ],
 		"additionalData": {
 			"longDescription": {
