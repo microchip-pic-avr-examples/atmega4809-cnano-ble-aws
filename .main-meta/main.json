@@ -5,7 +5,7 @@
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.atmega4809-cnano-ble-aws",
         "version": "1.0.2",
-        "displayName": "Sending weather info to AWS with BLE on ATmega4809",
+        "displayName": "Sending Weather Info to AWS Using BLE and ATmega4809",
         "projectName": "atmega4809-cnano-ble-aws",
         "shortDescription": "This repository describes how to connect a Click Weather sensor to the AWS cloud through a BLE module from an ATmega4809 microcontroller.",
         "ide": {
@@ -39,14 +39,18 @@
         "author": "Microchip",
         "subcategories": [
             [
-               "Peripherals", "USART"
+               "Peripherals",
+			   "USART"
             ]
         ],
         "peripherals": [
             "USART"
         ],
         "keywords": [
-            "AWS", "BLE", "Weather Click"
+            "AWS",
+			"BLE",
+			"Weather Click",
+			"RN4870"
         ],
 		"additionalData": {
 			"longDescription": {
