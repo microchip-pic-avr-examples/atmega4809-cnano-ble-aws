@@ -3,7 +3,7 @@ pipeline {
     agent {
         kubernetes {
 
-			defaultContainer 'xc8-mplabx'
+			defaultContainer 'avr8-mplabx'
             yamlFile '.citd/cloudprovider.yml'
         }
     }
@@ -30,7 +30,7 @@ pipeline {
 		    steps {
 				script {
 					execute("git clone https://bitbucket.microchip.com/scm/citd/mpae-buildpipeline-groovy-scripts.git")
-					def buildPipeline = load ('mpae-buildpipeline-groovy-scripts/xc8mplabx-buildpipeline.groovy')
+					def buildPipeline = load ('mpae-buildpipeline-groovy-scripts/avr8mplabx-buildpipeline.groovy')
 					buildPipeline.runStages()
 				}
             }
